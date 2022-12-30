@@ -1,0 +1,35 @@
+.error-page {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  height: 100vh;
+}
+
+.error-page h1 {
+  font-size: 39px;
+  color: rgb(161, 161, 161);
+  margin: 0;
+}
+
+.error-page img {
+  width: 300px;
+  margin: 20px 0;
+}
+
+.error-page p {
+  font-size: 20px;
+  text-align: center;
+  color: rgb(161, 161, 161);
+  margin: 20px 0;
+}
+
+.error-page a {
+  font-size: 16px;
+  color: #00b8d4;
+  text-decoration: none;
+}
+
+.error-page a:hover {
+  text-decoration: underline;
+}
