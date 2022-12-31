@@ -1,6 +1,6 @@
 .image-effect {
-  width: 90%;
-  margin-top: 150px;
+  /* width: 90%;
+  margin-top: 150px; */
   animation: profile_animate 6s ease-in-out infinite 1s;
 }
 
@@ -18,7 +18,11 @@
   }
 }
 
-.text-container {
+.tech:hover {
+  color: white;
+}
+
+/* .text-container {
   min-width: 55%;
   text-align: center;
 }
@@ -27,9 +31,7 @@
   min-width: 50%;
 }
 
-.tech:hover {
-  color: white;
-}
+
 
 @media (min-width: 700vw){
   .text-container {
@@ -83,8 +85,7 @@
 
 @media (min-height: 800px) {
   .text-container {
-    position: relative;
-    top: 15%;
+    padding-top: 300px
   }
   .portfolio-container  {
     padding-top: 700px;
@@ -132,4 +133,4 @@
   .portfolio-container  {
     padding-top: 400px;
   }
-}
+} */

@@ -4,16 +4,16 @@ const About = () => {
   return (
     <div
       name="about"
-      className="w-full h-screen bg-gradient-to-b from-gray-800 to-black text-white about-container"
+      className="w-full md:h-screen bg-gradient-to-b from-gray-800 to-black text-white about-container"
     >
-      <div className="max-w-screen-xl p-4 mx-auto flex flex-col justify-center w-full h-full">
+      <div className="max-w-screen-lg p-4 mx-auto flex flex-col justify-center w-full h-full">
         <div className="pb-8">
           <p className="text-4xl font-bold inline border-b-4 border-gray-500">
             Sobre Mim
           </p>
         </div>
 
-        <p className="text-xl mt-10">
+        <p className="text-xl text-[1.23rem] mt-10">
           Bacharel em Administração por formação, atualmente estudando desenvolvimento Web Full-Stack na <a href="https://www.betrybe.com/"><span  className="text-green-300 hover:underline">Trybe</span></a>.
         </p>
 
