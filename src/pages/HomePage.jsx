@@ -5,6 +5,8 @@ import About from "../components/About";
 import Skills from "../components/Skills";
 import Portfolio from "../components/Portfolio";
 import SocialLinks from "../components/SocialLinks";
+import Contact from '../components/Contact';
+import Footer from '../components/Footer';
 
 const HomePage = () => {
   return (
@@ -14,6 +16,8 @@ const HomePage = () => {
       <About />
       <Skills />
       <Portfolio />
+      <Contact />
+      <Footer />
       <SocialLinks />
     </div>
   );

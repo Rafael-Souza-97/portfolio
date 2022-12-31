@@ -71,18 +71,18 @@ const Portfolio = () => {
                   alt=""
                   className="rounded-md duration-200 hover:scale-105"
                 />
-                <p className=" text-2xl font-signature text-center mt-5">{name}</p>
+                <p className=" text-2xl font-signature text-center mt-5 mb-5">{name}</p>
               </a>
 
-              <div className="flex items-center justify-center">
+              <div className="items-center justify-center grid sm:grid-cols-2">
               <a href={href}>
-                <button className="w-1/2 px-6 py-3 m-4 duration-200 hover:scale-100">
+                <button className="px-6 py-3 m-4 duration-200 hover:scale-100 text-center">
                   Demonstração
                 </button>
                 </a>
 
-                <a href={repository}>
-                  <button className="w-1/2 px-6 py-3 m-4 duration-200 hover:scale-100">
+                <a className="text-center" href={repository}>
+                  <button className="px-6 py-3 m-4 duration-200 hover:scale-100 text-center">
                     Repositório
                   </button>
                 </a>
@@ -101,11 +101,11 @@ const Portfolio = () => {
                   alt=""
                   className="rounded-md duration-200 hover:scale-105"
                 />
-                <p className=" text-2xl font-signature text-center mt-5">{name}</p>
+                <p className=" text-2xl font-signature text-center mt-5 mb-5">{name}</p>
               </a>
               <div className="flex items-center justify-center">
-                <a href={repository}>
-                  <button className="w-1/2 px-6 py-3 m-4 duration-200 hover:scale-100">
+                <a className="text-center" href={repository}>
+                  <button className="px-6 py-3 m-4 duration-200 hover:scale-100">
                     Repositório
                   </button>
                 </a>

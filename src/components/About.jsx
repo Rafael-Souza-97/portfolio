@@ -14,7 +14,7 @@ const About = () => {
         </div>
 
         <p className="text-xl text-[1.23rem] mt-10">
-          Bacharel em Administração por formação, atualmente estudando desenvolvimento Web Full-Stack na <a href="https://www.betrybe.com/"><span  className="text-green-300 hover:underline">Trybe</span></a>.
+          Bacharel em Administração por formação, atualmente estudando Desenvolvimento Web Full-Stack na <a href="https://www.betrybe.com/"><span  className="text-green-300 hover:underline">Trybe</span></a>.
         </p>
 
         <br />
