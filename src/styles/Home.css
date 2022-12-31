@@ -1,4 +1,6 @@
 .image-effect {
+  width: 90%;
+  margin-top: 150px;
   animation: profile_animate 6s ease-in-out infinite 1s;
 }
 
@@ -29,9 +31,12 @@
   color: white;
 }
 
-@media (max-width: 767px) and (min-width: 700px){
+@media (min-width: 700vw){
   .text-container {
-    padding-top: 440px;
+    padding-top: 440vw;
+  }
+  .portfolio-container  {
+    padding-top: 400px;
   }
 }
 
@@ -39,22 +44,92 @@
   .text-container {
     padding-top: 300px;
   }
+  .portfolio-container  {
+    padding-top: 400px;
+  }
 }
 
 @media (max-width: 639px) and (min-width: 600px) {
   .text-container {
     padding-top: 200px;
   }
+  
 }
 
 @media (max-width: 600px) and (min-width: 550px) {
   .text-container {
     padding-top: 150px;
   }
+  .portfolio-container  {
+    padding-top: 400px;
+  }
 }
 
-@media (max-width: 550px) {
+@media (max-width: 550px) and (min-width: 470px) {
   .text-container {
-    padding-top: 100px;
+    padding-top: 120px;
+  }
+  
+}
+
+@media (max-width: 470px) {
+  .text-container {
+    padding-top: 250px;
+  }
+  .portfolio-container  {
+    padding-top: 400px;
+  }
+}
+
+@media (min-height: 800px) {
+  .text-container {
+    position: relative;
+    top: 15%;
+  }
+  .portfolio-container  {
+    padding-top: 700px;
+    padding-bottom: 500px;
+  }
+
+}
+
+@media (max-height: 800px) and (min-height: 590px) {
+  .text-container {
+    position: relative;
+    top: 25%;
+  }
+  .about-container {
+    padding-top: 400px;
+
+  }
+  .portfolio-container  {
+    padding-top: 600px;
+    padding-bottom: 500px;
+  }
+}
+
+@media (max-height: 590px) and (min-height: 460px) {
+  .text-container {
+    padding-top: 900px;
+    padding-bottom: 60px;
+  }
+  .about-container {
+    padding-top: 900px;
+  }
+  .portfolio-container  {
+    padding-top: 400px;
+  }
+}
+
+@media (max-height: 460px) {
+  .text-container {
+    padding-top: 1100px;
+    padding-bottom: 50px;
+  }
+  .about-container {
+    padding-top: 1100px;
+  }
+  .portfolio-container  {
+    padding-top: 400px;
   }
 }
