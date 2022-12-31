@@ -1,5 +1,4 @@
 import React from "react";
-
 import html from "../assets/html.png";
 import css from "../assets/css.png";
 import javascript from "../assets/javascript.png";
@@ -7,6 +6,8 @@ import reactImage from "../assets/react.png";
 import nextjs from "../assets/nextjs.png";
 import graphql from "../assets/graphql.png";
 import github from "../assets/github.png";
+import { BsChevronDoubleDown } from 'react-icons/bs';
+import { Link } from "react-scroll";
 import tailwind from "../assets/tailwind.png";
 
 const Experience = () => {
@@ -63,10 +64,10 @@ const Experience = () => {
 
   return (
     <div
-      name="experience"
-      className="bg-gradient-to-b from-black via-black to-gray-800 w-full md:h-screen"
+      name="skills"
+      className="bg-gradient-to-b from-black via-black to-gray-800 w-full md:h-screen pt-36 md:pt-0 pb-20"
     >
-      <div className="max-w-screen-lg mx-auto p-4 flex flex-col justify-center w-full h-full text-white">
+      <div className="max-w-screen-lg mx-auto p-4 flex flex-col justify-center text-white md:h-full px-8">
         <div>
           <p className="text-4xl font-bold border-b-4 border-gray-500 p-2 inline">
             Skills
@@ -78,17 +79,34 @@ const Experience = () => {
           </p>
         </div>
 
-        <div className="w-full grid grid-cols-2 sm:grid-cols-10 gap-8 text-center py-8 px-12 sm:px-0">
+        <div className="w-full grid grid-cols-1 sm:grid-cols-2 md:grid-cols-10 gap-6 text-center py-8 px-12 sm:px-0">
           {techs.map(({ id, src, title, style }) => (
             <div
               key={id}
               className={`shadow-md hover:scale-105 duration-500 py-2 rounded-lg ${style}`}
             >
-              <img src={src} alt="" className="w-20 mx-auto" />
+              <img src={src} alt="" className="w-20 mx-auto min-mx-10" />
               <p className="text-xs mt-4">{title}</p>
             </div>
           ))}
         </div>
+      </div>
+
+      <div className="hidden md:flex justify-center">
+        <Link
+          to="portfolio"
+          smooth
+          duration={500}
+          >
+          <button
+            className="group text-white w-fit px-8 py-3 my-2 flex items-center rounded-md bg-transparent mb-5"
+          >
+            Portfolio
+            <span>
+              <BsChevronDoubleDown size={25} className="ml-2 down-arrow" />
+            </span>
+          </button>
+        </Link>
       </div>
     </div>
   );
