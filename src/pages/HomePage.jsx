@@ -7,7 +7,7 @@ import Portfolio from "../components/Portfolio";
 import SocialLinks from "../components/SocialLinks";
 import Contact from '../components/Contact';
 import Footer from '../components/Footer';
-
+import NextSession from '../components/NextSession';
 const HomePage = () => {
   return (
     <div>
@@ -16,6 +16,7 @@ const HomePage = () => {
       <About />
       <Skills />
       <Portfolio />
+      <NextSession name="Contato" bg="black"/>
       <Contact />
       <Footer />
       <SocialLinks />
