@@ -1,6 +1,40 @@
-import React from "react";
+import React, { useState } from "react";
+import emailjs from '@emailjs/browser';
 
 const Contact = () => {
+  const [name, setName] = useState('')
+  const [email, setEmail] = useState('')
+  const [message, setMessage] = useState('')
+
+  console.log(name)
+
+
+  const sendEmail = (event) => {
+    event.preventDefault();
+
+    if(name === '' || email === '' || message === '') {
+      alert("Por favor, preencha todos os campos :)");
+      return;
+    }
+
+    const templateParams = {
+      from_name: name,
+      message: message,
+      email: email
+    }
+
+    emailjs.send("service_eq0p98h", "template_874cssm", templateParams, "JeiFB_uQDSuo2hXsB")
+      .then((response) => {
+        console.log("Email Enviado", response.status, response.text);
+        alert('Mensagem Enviada!');
+        setName('');
+        setMessage('');
+        setEmail('');
+      }, (error) => {
+        console.log("ERRO", error)
+    })
+  }
+
   return (
     <div
       name="contato"
@@ -19,22 +53,29 @@ const Contact = () => {
             action="https://getform.io/f/61c99527-2b15-42cf-9b55-ad37d2f7daa6"
             method="POST"
             className=" flex flex-col w-full md:w-5/6"
+            onSubmit={sendEmail}
           >
             <input
               type="text"
               name="name"
               placeholder="Digite seu nome"
+              value={ name }
+              onChange={(e) => setName(e.target.value)}
               className="p-2 bg-transparent border-2 rounded-md text-white focus:outline-none"
             />
             <input
               type="text"
               name="email"
+              value={ email }
               placeholder="Digite seu e-mail"
+              onChange={(e) => setEmail(e.target.value)}
               className="my-4 p-2 bg-transparent border-2 rounded-md text-white focus:outline-none"
             />
             <textarea
               name="message"
               placeholder="Digite sua mensagem"
+              value={ message }
+              onChange={(e) => setMessage(e.target.value)}
               rows="12"
               className="p-3 bg-transparent border-2 rounded-md text-white focus:outline-none resize-none"
             ></textarea>
