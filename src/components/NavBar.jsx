@@ -12,20 +12,24 @@ const NavBar = () => {
     },
     {
       id: 3,
-      link: "skills",
+      link: "timeline",
     },
     {
       id: 4,
-      link: "portfolio",
+      link: "skills",
     },
     {
       id: 5,
+      link: "portfolio",
+    },
+    {
+      id: 6,
       link: "contato",
     },
   ];
 
   return (
-    <div className="flex justify-between items-center w-full h-20 px-4 text-white bg-black fixed mb-10 z-10">
+    <div className="flex justify-between items-center w-full h-20 px-4 text-white bg-black fixed mb-10 z-50">
       <div>
         <Link to="home" smooth duration={500}>
           <span key={1} className="text-5xl cursor-pointer text-gray-400 tech ml-2">{`< />`}</span>

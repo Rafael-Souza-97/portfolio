@@ -6,9 +6,6 @@ const Contact = () => {
   const [email, setEmail] = useState('')
   const [message, setMessage] = useState('')
 
-  console.log(name)
-
-
   const sendEmail = (event) => {
     event.preventDefault();
 
@@ -38,7 +35,7 @@ const Contact = () => {
   return (
     <div
       name="contato"
-      className="bg-gradient-to-b from-black via-black to-gray-800 w-full h-5/6"
+      className="bg-gradient-to-b from-gray-800 to-black w-full h-5/6"
     >
       <div className="max-w-screen-lg mx-auto flex flex-col justify-center md:h-full px-4 text-white pt-32 pb-32">
         <div className="pb-10">

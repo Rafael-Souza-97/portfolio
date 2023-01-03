@@ -4,7 +4,7 @@ import { Link } from "react-scroll";
 
 const NextSession = ({ name, bg, to}) => {
   return (
-    <div className={`bottom-0 w-full p-10 text-white text-center z-10 hidden md:flex justify-center bg-${bg}`} >
+    <div className={`bottom-0 w-full p-10 pt-20 text-white text-center hidden md:flex justify-center bg-gray-800`} >
       <Link
         to={`${to}`}
         smooth
