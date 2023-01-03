@@ -17,7 +17,7 @@ const Trajectory = () => {
   return (
     <div
       name="timeline"
-      className="md:flex flex-col w-full md:h-screen bg-gradient-to-b from-black via-black to-gray-800 text-white pt-32 md:pt-20"
+      className="min-h-screen md:flex flex-col w-full bg-gradient-to-b from-black via-black to-gray-800 text-white pt-32 md:pt-20"
     >
       <div className="max-w-screen-xl mx-auto flex flex-col justify-center md:h-full px-4">
         <div>
@@ -169,14 +169,14 @@ const Trajectory = () => {
         </div>
       </div>
 
-      <div className="hidden md:flex justify-center">
+      <div className="hidden md:flex justify-center px-8 py-10">
         <Link
           to="skills"
           smooth
           duration={500}
           >
           <button
-            className="group text-white w-fit px-8 py-3 my-2 flex items-center rounded-md bg-transparent mb-5"
+            className="group text-white flex items-center rounded-md bg-transparent mb-5"
           >
             Skills
             <span>

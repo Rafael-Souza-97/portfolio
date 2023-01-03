@@ -9,7 +9,7 @@ const Home = () => {
     <div
       name="home"
       id="home"
-      className="md:h-screen w-full bg-gradient-to-b from-black via-black to-gray-800 pb-20 min-h-fit home-big-container"
+      className="min-h-screen w-full bg-gradient-to-b from-black via-black to-gray-800 pb-20 home-big-container"
     >
       <div className="max-w-screen-lg mx-auto flex flex-col items-center justify-center h-full px-8 md:flex-row home-container">
         <div className="flex flex-col justify-center h-full text-container mt-32 mr-10">
@@ -33,14 +33,14 @@ const Home = () => {
         </div>
       </div>
 
-      <div className="hidden md:flex justify-center"> 
+      <div className="hidden md:flex justify-center px-8 py-10"> 
         <Link
           to="sobre mim"
           smooth
           duration={500}
         >
           <button
-          className="group text-white w-fit px-8 py-3 my-2 flex items-center rounded-md bg-transparent mb-5"
+          className="group text-white flex items-center rounded-md bg-transparent mb-5"
           >
             Sobre mim
             <span>

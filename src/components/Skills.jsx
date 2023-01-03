@@ -65,7 +65,7 @@ const Experience = () => {
   return (
     <div
       name="skills"
-      className="bg-gradient-to-b from-gray-800 to-black w-full md:h-screen pt-36 md:pt-0 pb-20"
+      className="bg-gradient-to-b from-gray-800 to-black w-full min-h-screen pt-36"
     >
       <div className="max-w-screen-lg mx-auto p-4 flex flex-col justify-center text-white md:h-full px-8">
         <div>
@@ -92,14 +92,14 @@ const Experience = () => {
         </div>
       </div>
 
-      <div className="hidden md:flex justify-center">
+      <div className="hidden md:flex justify-center px-8 py-5">
         <Link
           to="portfolio"
           smooth
           duration={500}
           >
           <button
-            className="group text-white w-fit px-8 py-3 my-2 flex items-center rounded-md bg-transparent mb-5"
+            className="group text-white flex items-center rounded-md bg-transparent mb-5"
           >
             Portfolio
             <span>
