@@ -1,6 +1,7 @@
 import React from 'react'
 import heroImage from "../assets/hero/heroImage.png";
 import { BsChevronDoubleDown } from 'react-icons/bs';
+import { TypeAnimation } from 'react-type-animation';
 import { Link } from "react-scroll";
 import '../styles/Home.css';
 
@@ -19,9 +20,23 @@ const Home = () => {
           <h3 className="text-2xl sm:text-3xl text-gray-300 mb-5 text-center tech">
             Desenvolvedor Web
           </h3>
-          <p className="text-gray-400 py-7 mb-5 text-center">
-            Desde sempre curioso, constante aprendiz e apaixonado por <span className="tech">tecnologia</span> e <span className="tech">inovação</span> 🖤
-          </p>
+          <h6 className="text-gray-400 py-7 mb-5 text-center">
+            Desde sempre curioso, constante aprendiz e apaixonado por {""}
+            <TypeAnimation
+                className="tech"
+                sequence={[
+                  1500,
+                  "tecnologia 🖤",
+                  3000,
+                  "inovação 🖤",
+                  2000,
+                  "resolver problemas 🖤",
+                ]}
+                wrapper="div"
+                cursor={true}
+                repeat={Infinity}
+              />
+          </h6>
         </div>
 
         <div className="image-container">
