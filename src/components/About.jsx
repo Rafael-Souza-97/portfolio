@@ -7,7 +7,7 @@ const About = () => {
   return (
     <div
       name="sobre mim"
-      className="md:flex flex-col w-full min-h-screen bg-gradient-to-b from-gray-800 to-black text-white pt-32"
+      className="min-h-screen md:flex flex-col w-full bg-gradient-to-b from-gray-800 to-black text-white pt-36"
     >
       <div className="max-w-screen-lg mx-auto flex flex-col justify-center md:h-full px-4">
         <div>
@@ -37,14 +37,14 @@ const About = () => {
         </p>
       </div>
 
-      <div className="hidden md:flex justify-center px-8 py-10">
+      <div className="hidden md:flex justify-center px-8 py-28">
         <Link
           to="timeline"
           smooth
           duration={500}
           >
           <button
-            className="group text-white flex items-center rounded-md bg-transparent mb-5"
+            className="group text-white w-fit px-8 py-3 my-2 flex items-center rounded-md bg-transparent mb-5"
           >
             Timeline
             <span>

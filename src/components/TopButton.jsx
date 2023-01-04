@@ -13,7 +13,7 @@ const TopButton = () => {
   function handleScroll() {
     const scrollPos = window.scrollY;
 
-    if (scrollPos > 1000) {
+    if (scrollPos > 750) {
       setIsVisible(true);
     } else {
       setIsVisible(false);

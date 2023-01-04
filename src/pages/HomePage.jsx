@@ -8,7 +8,6 @@ import Portfolio from "../components/Portfolio";
 import SocialLinks from "../components/SocialLinks";
 import Contact from '../components/Contact';
 import Footer from '../components/Footer';
-// import NextSession from '../components/NextSession';
 import TopButton from '../components/TopButton';
 
 const HomePage = () => {
@@ -21,7 +20,6 @@ const HomePage = () => {
       <Timeline />
       <Skills />
       <Portfolio />
-      {/* <NextSession name="Contato" bg="black"/> */}
       <Contact />
       <Footer />
       <SocialLinks />

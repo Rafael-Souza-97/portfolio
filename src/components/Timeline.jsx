@@ -1,6 +1,6 @@
 import React, { useState } from "react";
 import { BsChevronDoubleDown } from 'react-icons/bs';
-import HeroImage from "../assets/carta_de_recomendacao_eb.png"
+import  cartaDeRecomendacao  from "../assets/carta_de_recomendacao_eb.png"
 import { Link } from "react-scroll";
 
 const Trajectory = () => {
@@ -27,11 +27,11 @@ const Trajectory = () => {
         </div>
 
         <div className="flex flex-col justify-center text-container">
-          <ul class="timeline text-md">
+          <ul className="timeline text-md">
             <li>
-              <div class="direction-r">
-                <div class="flag-wrapper">
-                <span class="flag hover:underline">
+              <div className="direction-r">
+                <div className="flag-wrapper">
+                <span className="flag hover:underline">
                     <a
                       href="https://www.linkedin.com/company/skambook/about/"
                       target="_blank"
@@ -41,16 +41,16 @@ const Trajectory = () => {
                     </a>
                   </span>
 
-                  <span class="time-wrapper"><span class="time">jun/2022 - <strong>presente</strong></span></span>
+                  <span className="time-wrapper"><span className="time">jun/2022 - <strong>presente</strong></span></span>
                 </div>
-                <div class="desc">Desenvolvimento de uma rede social mobile com Typescript e React Native</div>
+                <div className="desc">Desenvolvimento de uma rede social mobile com Typescript e React Native</div>
               </div>
             </li>
             
             <li>
-              <div class="direction-l">
-                <div class="flag-wrapper">
-                  <span class="flag hover:underline">
+              <div className="direction-l">
+                <div className="flag-wrapper">
+                  <span className="flag hover:underline">
                     <a
                       href="https://www.betrybe.com/"
                       target="_blank"
@@ -60,16 +60,16 @@ const Trajectory = () => {
                     </a>
                   </span>
 
-                  <span class="time-wrapper"><span class="time">abr/2022 - <strong>presente</strong></span></span>
+                  <span className="time-wrapper"><span className="time">abr/2022 - <strong>presente</strong></span></span>
                 </div>
-                <div class="desc">Estudando Desenvolvimento Web Full-Stack</div>
+                <div className="desc">Estudando Desenvolvimento Web Full-Stack</div>
               </div>
             </li>
 
             <li>
-              <div class="direction-r">
-                <div class="flag-wrapper">
-                  <span class="flag hover:underline">
+              <div className="direction-r">
+                <div className="flag-wrapper">
+                  <span className="flag hover:underline">
                     <a
                       href="https://www.hydac.com/pt-br/sobre-a-hydac"
                       target="_blank"
@@ -79,16 +79,16 @@ const Trajectory = () => {
                     </a>
                   </span>
 
-                  <span class="time-wrapper"><span class="time">out/2020 - mar/2022</span></span>
+                  <span className="time-wrapper"><span className="time">out/2020 - mar/2022</span></span>
                 </div>
-                <div class="desc">Atuei na empresa pela segunda vez, como Auxiliar Técnico</div>
+                <div className="desc">Atuei na empresa pela segunda vez, como Auxiliar Técnico</div>
               </div>
             </li>
 
             <li>
-              <div class="direction-l">
-                <div class="flag-wrapper">
-                  <span class="flag hover:underline">
+              <div className="direction-l">
+                <div className="flag-wrapper">
+                  <span className="flag hover:underline">
                     <a
                       href="https://www.vallourec.com/pt-BR/br"
                       target="_blank"
@@ -98,16 +98,16 @@ const Trajectory = () => {
                     </a>
                   </span>
 
-                  <span class="time-wrapper"><span class="time">ago/2018 - set/2020</span></span>
+                  <span className="time-wrapper"><span className="time">ago/2018 - set/2020</span></span>
                 </div>
-                <div class="desc">Atuei por pouco mais de 2 anos como Inspetor de Qualidade III</div>
+                <div className="desc">Atuei por pouco mais de 2 anos como Inspetor de Qualidade III</div>
               </div>
             </li>
 
             <li>
-              <div class="direction-r">
-                <div class="flag-wrapper">
-                  <span class="flag hover:underline">
+              <div className="direction-r">
+                <div className="flag-wrapper">
+                  <span className="flag hover:underline">
                     <a
                       href="https://www.hydac.com/pt-br/sobre-a-hydac"
                       target="_blank"
@@ -117,16 +117,16 @@ const Trajectory = () => {
                     </a>
                   </span>
 
-                  <span class="time-wrapper"><span class="time">jul/2017 - jul/2018</span></span>
+                  <span className="time-wrapper"><span className="time">jul/2017 - jul/2018</span></span>
                 </div>
-                <div class="desc">Este foi meu primeiro emprego, atuei como Auxiliar de Manutenção</div>
+                <div className="desc">Este foi meu primeiro emprego, atuei como Auxiliar de Manutenção</div>
               </div>
             </li>
 
             <li>
-              <div class="direction-l">
-                <div class="flag-wrapper">
-                  <span class="flag hover:underline">
+              <div className="direction-l">
+                <div className="flag-wrapper">
+                  <span className="flag hover:underline">
                     <a
                       href="https://www.eb.mil.br/"
                       target="_blank"
@@ -135,33 +135,30 @@ const Trajectory = () => {
                       Exército Brasileiro
                     </a>
                   </span>
-                  <span class="time-wrapper"><span class="time">mar/2016 - nov/2016</span></span>
+                  <span className="time-wrapper"><span className="time">mar/2016 - nov/2016</span></span>
                 </div>
 
-                <div class="desc text-center">Fui honrado com uma <span onClick={handleClick} className="hover:underline cursor-pointer">carta de recomendação do Exército Brasileiro</span> por ter mantido um padrão de conduta profissional durante o meu tempo de serviço.</div>
+                <div className="desc text-center">Fui honrado com uma <span onClick={handleClick} className="hover:underline cursor-pointer">carta de recomendação do Exército Brasileiro</span> por ter mantido um padrão de conduta profissional durante o meu tempo de serviço.</div>
                 {showImage && (
-                  <div className="fixed inset-0 flex items-center justify-center p-4 z-50">
-                    <div className="max-w-xl bg-gray-600 bg-opacity-80 rounded-lg p-4 shadow-xl">
-                    <button
-                        onClick={handleClose}
-                        className="py-2 px-4 bg-red-600 text-white rounded-full"
-                      >
+                  <div className="fixed top-0 bottom-0 left-0 right-0 md:flex items-center justify-center bg-black bg-opacity-75 z-50 overflow-scroll" style={{height: "100vh", width: "100vw"}}>
+                    <div className="flex justify-center">
+                      <button onClick={handleClose} className="fixed top-0 right-0 btn bg-red-500 text-white rounded-full px-4 py-2 m-4">
                         X
                       </button>
-                      <img  src={HeroImage} alt="Imagem pop-up" />
                     </div>
+                    <img  src={ cartaDeRecomendacao } alt="Imagem pop-up" />
                   </div>
                 )}
               </div>
             </li>
 
             <li>
-              <div class="direction-r">
-                <div class="flag-wrapper">
-                  <span class="flag">Senai e Senac</span>
-                  <span class="time-wrapper"><span class="time">mar/2013 - maio/2017</span></span>
+              <div className="direction-r">
+                <div className="flag-wrapper">
+                  <span className="flag">Senai e Senac</span>
+                  <span className="time-wrapper"><span className="time">mar/2013 - maio/2017</span></span>
                 </div>
-                <div class="desc">Comecei a trabalhar com 15 anos, fui menor aprendiz, jovem aprendiz e estágiario</div>
+                <div className="desc">Comecei a trabalhar com 15 anos, fui menor aprendiz, jovem aprendiz e estágiario</div>
               </div>
             </li>
 
@@ -169,14 +166,14 @@ const Trajectory = () => {
         </div>
       </div>
 
-      <div className="hidden md:flex justify-center px-8 py-10">
+      <div className="hidden md:flex justify-center">
         <Link
           to="skills"
           smooth
           duration={500}
           >
           <button
-            className="group text-white flex items-center rounded-md bg-transparent mb-5"
+            className="group text-white w-fit px-8 py-3 my-2 flex items-center rounded-md bg-transparent mb-5"
           >
             Skills
             <span>

@@ -321,3 +321,7 @@
     margin: 1em 4em 0 4em;
   }
   }
+
+  .shadow-brown-500 {
+    box-shadow: 0px 4px 6px rgba(139,69,19,0.5);
+  }

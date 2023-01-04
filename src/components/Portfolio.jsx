@@ -97,7 +97,7 @@ const Portfolio = () => {
           </div>
         </div>
 
-        <div className="hidden md:flex justify-center px-8 py-10">
+        <div className="hidden md:flex justify-center px-8 py-28">
           <Link
             to="contato"
             smooth
