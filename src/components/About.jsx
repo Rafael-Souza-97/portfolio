@@ -27,7 +27,7 @@ const About = () => {
         </p>
           
         <p className="text-xl mt-7 text-justify">
-          Além disso, tenho cerca de 5 anos de experiência trabalhando em manutenção e operação em empresas multinacionais de grande porte, o que me deu uma base sólida em resolução de problemas e trabalho em equipe. Atualmente, estou em transição de carreira, buscando conhecimento e oportunidades no mundo do desenvolvimento web. Estou sempre estudando, buscando novas formas de aprender, e estou interessado em encontrar uma oportunidade de colocar minhas habilidades em prática.
+          Além disso, tenho cerca de 5 anos de experiência trabalhando em manutenção e operação em empresas multinacionais de grande porte, o que me deu uma base sólida em resolução de problemas e trabalho em equipe. No momento, estou em transição de carreira, buscando conhecimento e oportunidades no mundo do desenvolvimento web. Estou sempre estudando, buscando novas formas de aprender, e estou interessado em encontrar uma oportunidade de colocar minhas habilidades em prática.
         </p>
 
         <p className="flex justify-center text-xl tech text center items-center text-[1.23rem] mt-20 text-gray-300">

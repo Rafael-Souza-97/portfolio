@@ -17,6 +17,7 @@ import jest from "../assets/jest.png";
 import git from "../assets/git.png";
 import github from "../assets/github.png";
 import vercel from "../assets/vercel.png";
+import railway from "../assets/railway.png";
 import slack from "../assets/slack.png";
 import figma from "../assets/figma.png";
 import vscode from "../assets/vscode.png";
@@ -79,7 +80,7 @@ const Experience = () => {
       id: 9,
       src: mysql,
       title: "MySQL",
-      style: "shadow-blue-600",
+      style: "shadow-blue-800",
     },
     {
       id: 10,
@@ -137,30 +138,36 @@ const Experience = () => {
     },
     {
       id: 19,
+      src: railway,
+      title: "Railway",
+      style: "shadow-white",
+    },
+    {
+      id: 20,
       src: slack,
       title: "Slack",
       style: "shadow-sky-400",
     },
     {
-      id: 20,
+      id: 21,
       src: figma,
       title: "Figma",
       style: "shadow-gray-400",
     },
     {
-      id: 21,
+      id: 22,
       src: vscode,
       title: "VsCode",
       style: "shadow-blue-400",
     },
     {
-      id: 22,
+      id: 23,
       src: windows,
       title: "Windows",
       style: "shadow-blue-400",
     },
     {
-      id: 23,
+      id: 24,
       src: linux,
       title: "linux",
       style: "shadow-orange-400",
