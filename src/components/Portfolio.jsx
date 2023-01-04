@@ -63,15 +63,14 @@ const Portfolio = () => {
           </p>
         </div>
 
-        <div className="grid sm:grid-cols-2 md:grid-cols-3 gap-10 sm:px-8">
+        <div className="grid sm:grid-cols-2 md:grid-cols-3 gap-7 sm:px-8">
           {projects.map(({ id, name, src, href, repository }) => (
             <div key={id} className="shadow-md shadow-gray-600 rounded-lg">
               <a href={href ? href : repository}>
-                <p className="text-1xl text-center my-2 text-gray-300 tech">{name}</p>
                 <img
                   src={src}
                   alt={name}
-                  className="rounded-md duration-200 hover:scale-105"
+                  className="rounded-md duration-200 hover:scale-105 px-1"
                 />
               </a>
               { href ? 

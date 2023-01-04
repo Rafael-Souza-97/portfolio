@@ -1,6 +1,6 @@
 import React, { useState } from "react";
 import { BsChevronDoubleDown } from 'react-icons/bs';
-import  cartaDeRecomendacao  from "../assets/carta_de_recomendacao_eb.png"
+import  cartaDeRecomendacao  from "../assets/hero/carta_de_recomendacao_eb.png"
 import { Link } from "react-scroll";
 
 const Trajectory = () => {

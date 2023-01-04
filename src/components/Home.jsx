@@ -1,5 +1,5 @@
 import React from "react";
-import HeroImage from "../assets/heroImage.png";
+import HeroImage from "../assets/hero/heroImage.png";
 import { BsChevronDoubleDown } from 'react-icons/bs';
 import { Link } from "react-scroll";
 import '../styles/Home.css';
