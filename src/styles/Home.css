@@ -1,5 +1,6 @@
 .image-effect {
   animation: profile_animate 6s ease-in-out infinite 1s;
+  animation-delay: 2s;
 }
 
 @keyframes profile_animate {

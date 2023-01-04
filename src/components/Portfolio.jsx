@@ -63,7 +63,7 @@ const Portfolio = () => {
           </p>
         </div>
 
-        <div className="grid sm:grid-cols-2 md:grid-cols-3 gap-7 sm:px-8">
+        <div className="grid sm:grid-cols-2 md:grid-cols-3 gap-7 pt-10 sm:px-8">
           {projects.map(({ id, name, src, href, repository }) => (
             <div key={id} className="shadow-md shadow-gray-600 rounded-lg">
               <a href={href ? href : repository}>

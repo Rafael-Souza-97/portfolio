@@ -1,5 +1,5 @@
-import React from "react";
-import HeroImage from "../assets/hero/heroImage.png";
+import React from 'react'
+import heroImage from "../assets/hero/heroImage.png";
 import { BsChevronDoubleDown } from 'react-icons/bs';
 import { Link } from "react-scroll";
 import '../styles/Home.css';
@@ -26,9 +26,9 @@ const Home = () => {
 
         <div className="image-container">
           <img
-            src={HeroImage}
+            src={heroImage}
             alt="my profile"
-            className="rounded-2xl mx-auto w-5/6 md:w-full mt-36 image-effect"
+            className="rounded-2xl mx-auto w-5/6 md:w-full mt-36 image-effect hero"
           />
         </div>
       </div>
