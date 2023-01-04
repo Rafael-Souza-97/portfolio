@@ -1,8 +1,6 @@
 import React from "react";
-import { FaGithub, FaLinkedin } from "react-icons/fa";
+import { FaGithub, FaLinkedin, FaFileDownload } from "react-icons/fa";
 import { HiOutlineMail } from "react-icons/hi";
-import { BsFillPersonLinesFill } from "react-icons/bs";
-
 
 const SocialLinks = () => {
   const links = [
@@ -38,7 +36,7 @@ const SocialLinks = () => {
       id: 4,
       child: (
         <>
-          Currículo <BsFillPersonLinesFill size={30} />
+          Currículo <FaFileDownload size={26} />
         </>
       ),
       href: "/Curriculo_Rafael_Souza.pdf",
