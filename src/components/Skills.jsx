@@ -172,14 +172,14 @@ const Experience = () => {
       name="skills"
       className="min-h-screen bg-gradient-to-b from-gray-800 to-black w-full pt-36 pb-20"
     >
-      <div className="max-w-screen-lg mx-auto p-4 flex flex-col justify-center text-white md:h-full px-8">
+      <div className="max-w-screen-lg mx-auto p-4 flex flex-col justify-center text-white md:h-full">
         <div>
           <p className="text-4xl font-bold border-b-4 border-gray-500 p-2 inline">
             Skills
           </p>
 
-          <p className="py-7 text-xl">
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Animi exercitationem similique ducimus repellendus optio accusantium! Nihil modi sunt facere alias iusto, dicta eligendi, cupiditate fugit fuga, necessitatibus nemo? Aliquam, dolor.
+          <p className="pt-16 pb-6 px-2 text-lg">
+            Possuo conhecimento e experiência em metodologias ágeis, incluindo Scrum e Kanban. Tenho experiência na criação de estruturas de software robustas e bem definidas, seguindo os princípios do MSC (Model-Service-Controller) e clean code. Atualmente, estou estudando programação orientada a objetos e procurando aplicar esses conhecimentos em meus projetos futuros.
           </p>
         </div>
 

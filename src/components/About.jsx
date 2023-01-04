@@ -7,7 +7,7 @@ const About = () => {
   return (
     <div
       name="sobre mim"
-      className="min-h-screen md:flex flex-col w-full bg-gradient-to-b from-gray-800 to-black text-white pt-36"
+      className="min-h-screen md:flex flex-col w-full bg-gradient-to-b from-gray-800 to-black text-white pt-44"
     >
       <div className="max-w-screen-lg mx-auto flex flex-col justify-center md:h-full px-4">
         <div>
@@ -21,13 +21,13 @@ const About = () => {
         </p>
 
         <br />
-
-        <p className="text-xl">
-          Sou uma pessoa apaixonadaTenho aproximadamente 5 anos de experiência atuando na area de manutenção e operação em empresas de grande porte. Atualmente, estou em transição de carreira, buscando conhecimento e oportunidade na área de desenvolvimento web.
+        
+        <p className="text-xl text-justify">
+          Sou um desenvolvedor web junior, dedicado a aprender e aprimorar minhas habilidades na área. Atualmente, estou envolvido em um projeto para construir um aplicativo de rede social mobile chamado Skambook com outros desenvolvedores mais experientes. Esse projeto tem me ajudado muito a desenvolver minhas habilidades e conhecimentos na área. 
         </p>
           
-        <p className="text-xl mt-7">
-          Comecei a trabalhar aos 14 anos. Tive a oportunidade de ser selecionado duas vezes como menor aprendiz, o que me permitiu adquirir experiência e conhecimento valiosos. Além disso, atuei como estagiário em uma oficina mecânica da minha cidade o que me deu ainda mais oportunidades de aprendizado e desenvolvimento. Em 2016, prestei serviço militar, onde tive a oportunidade de crescer pessoal e profissionalmente. Durante minha passagem pelo Exército Brasileiro, recebi uma recomendação por minha conduta profissional. Atualmente, estou em busca de novas oportunidades de trabalho e estou ansioso para colocar em prática tudo o que aprendi até agora e continuar aprendendo e crescendo profissionalmente
+        <p className="text-xl mt-7 text-justify">
+          Além disso, tenho cerca de 5 anos de experiência trabalhando em manutenção e operação em empresas multinacionais de grande porte, o que me deu uma base sólida em resolução de problemas e trabalho em equipe. Atualmente, estou em transição de carreira, buscando conhecimento e oportunidades no mundo do desenvolvimento web. Estou sempre estudando, buscando novas formas de aprender, e estou interessado em encontrar uma oportunidade de colocar minhas habilidades em prática.
         </p>
 
         <p className="flex justify-center text-xl tech text center items-center text-[1.23rem] mt-20 text-gray-300">

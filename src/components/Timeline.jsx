@@ -31,7 +31,7 @@ const Trajectory = () => {
             <li>
               <div className="direction-r">
                 <div className="flag-wrapper">
-                <span className="flag hover:underline">
+                <span className="flag hover:underline hover:text-green-300">
                     <a
                       href="https://www.linkedin.com/company/skambook/about/"
                       target="_blank"
@@ -50,7 +50,7 @@ const Trajectory = () => {
             <li>
               <div className="direction-l">
                 <div className="flag-wrapper">
-                  <span className="flag hover:underline">
+                  <span className="flag hover:underline hover:text-green-300">
                     <a
                       href="https://www.betrybe.com/"
                       target="_blank"
@@ -69,7 +69,7 @@ const Trajectory = () => {
             <li>
               <div className="direction-r">
                 <div className="flag-wrapper">
-                  <span className="flag hover:underline">
+                  <span className="flag hover:underline hover:text-red-300">
                     <a
                       href="https://www.hydac.com/pt-br/sobre-a-hydac"
                       target="_blank"
@@ -88,7 +88,7 @@ const Trajectory = () => {
             <li>
               <div className="direction-l">
                 <div className="flag-wrapper">
-                  <span className="flag hover:underline">
+                  <span className="flag hover:underline hover:text-blue-300">
                     <a
                       href="https://www.vallourec.com/pt-BR/br"
                       target="_blank"
@@ -107,7 +107,7 @@ const Trajectory = () => {
             <li>
               <div className="direction-r">
                 <div className="flag-wrapper">
-                  <span className="flag hover:underline">
+                  <span className="flag hover:underline hover:text-red-300">
                     <a
                       href="https://www.hydac.com/pt-br/sobre-a-hydac"
                       target="_blank"
@@ -126,7 +126,7 @@ const Trajectory = () => {
             <li>
               <div className="direction-l">
                 <div className="flag-wrapper">
-                  <span className="flag hover:underline">
+                  <span className="flag hover:underline hover:text-green-300">
                     <a
                       href="https://www.eb.mil.br/"
                       target="_blank"
@@ -138,7 +138,7 @@ const Trajectory = () => {
                   <span className="time-wrapper"><span className="time">mar/2016 - nov/2016</span></span>
                 </div>
 
-                <div className="desc text-center">Fui honrado com uma <span onClick={handleClick} className="hover:underline cursor-pointer">carta de recomendação do Exército Brasileiro</span> por ter mantido um padrão de conduta profissional durante o meu tempo de serviço.</div>
+                <div className="desc ">Fui honrado com uma <span onClick={handleClick} className="hover:underline cursor-pointer">carta de recomendação do Exército Brasileiro</span> por ter mantido um padrão de conduta profissional durante o meu tempo de serviço.</div>
                 {showImage && (
                   <div className="fixed top-0 bottom-0 left-0 right-0 md:flex items-center justify-center bg-black bg-opacity-75 z-50 overflow-scroll" style={{height: "100vh", width: "100vw"}}>
                     <div className="flex justify-center">
