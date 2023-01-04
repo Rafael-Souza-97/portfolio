@@ -1,9 +1,12 @@
 import React from "react";
 import { Link } from "react-scroll";
 import { BsChevronDoubleDown } from 'react-icons/bs';
-import exchangeWallet from "../assets/portfolio/exchange-wallet.png";
-import appDeReceitas from "../assets/portfolio/app-de-receitas.png";
-import shoppingCart from "../assets/portfolio/shopping-cart.jpg";
+import exchangeWallet from "../assets/portfolio/exchangeWallet.png";
+import appDeReceitas from "../assets/portfolio/appDeReceitas.png";
+import shoppingCart from "../assets/portfolio/shoppingCart.png";
+import smithProject from "../assets/portfolio/smithProject.png";
+import storeManager from "../assets/portfolio/storeManager.png";
+import talkerManager from "../assets/portfolio/talkerManager.png";
 
 const Portfolio = () => {
   const projects = [
@@ -30,21 +33,21 @@ const Portfolio = () => {
     },
     {
       id: 4,
-      name: "Store Manager",
-      src: shoppingCart,
-      repository: "https://github.com/Rafael-Souza-97/store-manager"
+      name: "Smith Project",
+      src: smithProject,
+      repository: "https://github.com/Rafael-Souza-97/smith-project"
     },
     {
       id: 5,
       name: "Talker Manager",
-      src: shoppingCart,
+      src: talkerManager,
       repository: "https://github.com/Rafael-Souza-97/talker-manager"
     },
     {
       id: 6,
-      name: "Smith Project",
-      src: shoppingCart,
-      repository: "https://github.com/Rafael-Souza-97/smith-project"
+      name: "Store Manager",
+      src: storeManager,
+      repository: "https://github.com/Rafael-Souza-97/store-manager"
     },
   ];
 
