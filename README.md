@@ -59,6 +59,7 @@ Abra [http://localhost:3000](http://localhost:3000) no seu navegador para visual
 - [Tailwind](https://tailwindcss.com/)
 - [React Icons](https://react-icons.github.io/react-icons/)
 - [React Type Animation](https://www.npmjs.com/package/react-type-animation)
+- [EmailJs](https://www.emailjs.com/)
 - [ESLint](https://eslint.org/)
 - [VsCode](https://code.visualstudio.com/)
 - [Git](https://git-scm.com/) & [GitHub](https://github.com/)
