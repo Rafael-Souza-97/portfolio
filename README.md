@@ -55,7 +55,7 @@ Abra [http://localhost:3000](http://localhost:3000) no seu navegador para visual
 
 ## Tecnologias / Ferramentas utilizadas
 
-- [React](https://pt-br.reactjs.org/))
+- [React](https://pt-br.reactjs.org/)
 - [Tailwind](https://tailwindcss.com/)
 - [React Icons](https://react-icons.github.io/react-icons/)
 - [React Type Animation](https://www.npmjs.com/package/react-type-animation)
