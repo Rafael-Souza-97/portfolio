@@ -64,6 +64,6 @@ Abra [http://localhost:3000](http://localhost:3000) no seu navegador para visual
 - [Git](https://git-scm.com/) & [GitHub](https://github.com/)
 - [Linux - Ubuntu](https://ubuntu.com/)
 
-## DeplOY
+## Deploy
 
 https://portfolio-rafael-souza.vercel.app/
