@@ -67,3 +67,7 @@ Abra [http://localhost:3000](http://localhost:3000) no seu navegador para visual
 ## Deploy
 
 https://portfolio-rafael-souza.vercel.app/
+
+## Preview
+
+https://user-images.githubusercontent.com/99055008/210901469-b0846b5e-9409-4e2e-875b-fa58f0719aaa.mp4
