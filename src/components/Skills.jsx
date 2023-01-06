@@ -186,7 +186,7 @@ const Experience = () => {
           </p>
 
           <p className="pt-16 pb-6 px-2 text-lg">
-            Possuo conhecimento e experiência em metodologias ágeis, incluindo Scrum e Kanban. Tenho experiência na criação de estruturas de software robustas e bem definidas, seguindo os princípios do MSC (Model-Service-Controller) e clean code. Atualmente, estou estudando programação orientada a objetos e procurando aplicar esses conhecimentos em meus projetos futuros.
+            Possuo conhecimento e experiência em metodologias ágeis, incluindo Scrum e Kanban. Tenho experiência na criação APIs RESTful e de estruturas de software robustas e bem definidas, seguindo os princípios do MSC (Model-Service-Controller) e clean code. Atualmente, estou estudando programação orientada a objetos e procurando aplicar esses conhecimentos em meus projetos futuros.
           </p>
         </div>
 

@@ -97,6 +97,17 @@ const Portfolio = () => {
               </div>
             ))}
           </div>
+
+          <h6 className="text-gray-400 pt-14 text-center">
+            Visite meu <a
+              href={"https://github.com/Rafael-Souza-97?tab=repositories"}
+              className="cursor-pointer tech"
+              target="_blank"
+              rel="noreferrer"
+              >
+                GitHub
+              </a> para ver mais projetos e acompanhar minha evolução!
+            </h6>
         </div>
 
         <div className="hidden md:flex justify-center px-8 py-28">
