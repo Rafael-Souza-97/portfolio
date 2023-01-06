@@ -1,5 +1,7 @@
 # Portfólio
 
+Este é o repositório do meu Portfólio, onde você pode encontrar alguns dos projetos que já trabalhei e alguns exemplos do meu trabalho. Estou sempre procurando por novos desafios e oportunidades de aprendizado, então não hesite em entrar em contato comigo se você tiver algum projeto em mente em que possa contribuir. Obrigado por visitar!
+
 <br>
 
 <details>
