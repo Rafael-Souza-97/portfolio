@@ -23,7 +23,7 @@ const About = () => {
         <br />
         
         <p className="text-xl text-justify">
-          Sou um desenvolvedor web junior, dedicado a aprender e aprimorar minhas habilidades na área. Atualmente, estou envolvido em um projeto para construir um aplicativo de rede social mobile chamado Skambook com outros desenvolvedores mais experientes. Esse projeto tem me ajudado muito a desenvolver minhas habilidades e conhecimentos na área. 
+          Sou desenvolvedor web júnior, dedicado a aprender e aprimorar minhas habilidades na área. Atualmente, estou envolvido em um projeto para construir um aplicativo de rede social mobile chamado Skambook com outros desenvolvedores mais experientes. Esse projeto tem me ajudado muito a desenvolver minhas habilidades e conhecimentos na área. 
         </p>
           
         <p className="text-xl mt-7 text-justify">
