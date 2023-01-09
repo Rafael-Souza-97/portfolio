@@ -31,7 +31,7 @@ const TopButton = () => {
     isVisible && (
       <button
         onClick={handleClick}
-        className="hidden xl:flex fixed top-[85%] right-10 p-3 rounded-full border-gray-100 border-2 bg-transparent hover:bg-gray-400"
+        className="hidden xl:flex fixed top-[85%] right-10 p-3 rounded-full border-gray-300 border-y-2 bg-transparent hover:bg-gray-500 hover:border-black"
       >
         <RxDoubleArrowUp size={25} color={"white"} />
       </button>

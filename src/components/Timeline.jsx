@@ -1,6 +1,7 @@
 import React, { useState } from "react";
 import { BsChevronDoubleDown } from 'react-icons/bs';
-import  cartaDeRecomendacao  from "../assets/hero/carta_de_recomendacao_eb.png"
+import  cartaDeRecomendacao  from "../assets/hero/carta_de_recomendacao_eb.png";
+import { FaFileDownload } from "react-icons/fa";
 import { Link } from "react-scroll";
 
 const Trajectory = () => {
@@ -145,6 +146,21 @@ const Trajectory = () => {
                       <button onClick={handleClose} className="fixed top-0 right-0 btn bg-red-500 text-white rounded-full px-4 py-2 m-4">
                         X
                       </button>
+
+                      <a
+                        href="/EB_Carta_de_Recomendacao.pdf"
+                        className="fixed top-5 right-24 text-blue-500"
+                        download={true}
+                        target="_blank"
+                        rel="noreferrer"
+                      >
+                        <button>
+                          <>
+                            <FaFileDownload size={32} />
+                          </>
+                        </button>
+                      </a>
+
                     </div>
                     <img  src={ cartaDeRecomendacao } alt="Imagem pop-up" />
                   </div>
