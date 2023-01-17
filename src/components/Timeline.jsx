@@ -31,26 +31,7 @@ const Trajectory = () => {
           <ul className="timeline text-md">
             <li>
               <div className="direction-r">
-                <div className="flag-wrapper">
-                <span className="flag hover:underline hover:text-green-300">
-                    <a
-                      href="https://www.linkedin.com/company/skambook/about/"
-                      target="_blank"
-                      rel="noreferrer"
-                      >
-                        Skambook
-                    </a>
-                  </span>
-
-                  <span className="time-wrapper"><span className="time">jun/2022 - <strong>presente</strong></span></span>
-                </div>
-                <div className="desc">Desenvolvimento de uma rede social mobile com Typescript e React Native</div>
-              </div>
-            </li>
-            
-            <li>
-              <div className="direction-l">
-                <div className="flag-wrapper">
+              <div className="flag-wrapper">
                   <span className="flag hover:underline hover:text-green-300">
                     <a
                       href="https://www.betrybe.com/"
@@ -64,6 +45,24 @@ const Trajectory = () => {
                   <span className="time-wrapper"><span className="time">abr/2022 - <strong>presente</strong></span></span>
                 </div>
                 <div className="desc">Estudando Desenvolvimento Web Full-Stack</div>
+              </div>
+            </li>
+            
+            <li>
+              <div className="direction-l">
+                <div className="flag-wrapper">
+                  <span className="flag hover:underline hover:text-green-300">
+                      <a
+                        href="https://www.linkedin.com/company/skambook/about/"
+                        target="_blank"
+                        rel="noreferrer"
+                        >
+                          Skambook
+                      </a>
+                    </span>
+                  <span className="time-wrapper"><span className="time">fev/2022 - <strong>presente</strong></span></span>
+                </div>
+                <div className="desc">Desenvolvimento de uma rede social mobile com Typescript e React Native</div>
               </div>
             </li>
 

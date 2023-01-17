@@ -35,11 +35,11 @@ const About = () => {
         <br />
         
         <p className="text-xl text-justify">
-          Sou desenvolvedor web júnior, dedicado a aprender e aprimorar minhas habilidades na área. Atualmente, estou envolvido em um projeto para construir um aplicativo de rede social mobile chamado Skambook com outros desenvolvedores mais experientes. Esse projeto tem me ajudado muito a desenvolver minhas habilidades e conhecimentos na área. 
+          Sou desenvolvedor web, dedicado a aprender e aprimorar minhas habilidades na área. Atualmente, estou envolvido em um projeto para construir um aplicativo de rede social mobile chamado Skambook com outros desenvolvedores mais experientes. Esse projeto tem me ajudado muito a desenvolver minhas habilidades e conhecimentos na área. 
         </p>
           
         <p className="text-xl mt-7 text-justify">
-          Além disso, tenho cerca de 5 anos de experiência trabalhando em manutenção e operação em empresas multinacionais de grande porte, o que me deu uma base sólida em resolução de problemas e trabalho em equipe. Tenho inglês avançado, com <span onClick={handleClick} className="hover:underline cursor-pointer">proficiência no nível <span className="font-helvetica">C1</span></span>. No momento, estou em transição de carreira, buscando conhecimento e oportunidades no mundo do desenvolvimento web. Estou sempre estudando, buscando novas formas de aprender, e estou interessado em encontrar uma oportunidade de colocar minhas habilidades em prática.
+          Além disso, tenho inglês avançado, com <span onClick={handleClick} className="hover:underline cursor-pointer">proficiência no nível <span className="font-helvetica">C1</span></span> e cerca de 5 anos de experiência trabalhando em manutenção e operação de empresas multinacionais de grande porte, o que me deu uma base sólida em resolução de problemas e trabalho em equipe. No momento, estou em transição de carreira, buscando conhecimento e oportunidades no mundo do desenvolvimento web. Estou sempre estudando, buscando novas formas de aprender, e estou interessado em encontrar uma oportunidade de colocar minhas habilidades em prática.
             {showImage && (
               <div className="fixed top-0 bottom-0 left-0 right-0 md:flex items-center justify-center bg-black bg-opacity-75 z-50 overflow-scroll" style={{height: "100vh", width: "100vw"}}>
                 <div className="flex flex-col justify-center">
