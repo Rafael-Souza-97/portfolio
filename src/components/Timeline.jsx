@@ -202,4 +202,3 @@ const Trajectory = () => {
 };
 
 export default Trajectory;
-

@@ -1,47 +1,47 @@
 import React from "react";
 import { Link } from "react-scroll";
 import { BsChevronDoubleDown } from 'react-icons/bs';
+import pokedex from "../assets/portfolio/pokedex.png";
 import exchangeWallet from "../assets/portfolio/exchangeWallet.png";
 import appDeReceitas from "../assets/portfolio/appDeReceitas.png";
-import shoppingCart from "../assets/portfolio/shoppingCart.png";
+import tabelaDoCampeonato from "../assets/portfolio/tabelaDoCampeonato.png";
 import smithProject from "../assets/portfolio/smithProject.png";
 import storeManager from "../assets/portfolio/storeManager.png";
-import talkerManager from "../assets/portfolio/talkerManager.png";
 
 const Portfolio = () => {
   const projects = [
     {
       id: 1,
+      name: "Pokédex",
+      src: pokedex,
+      href: "https://rafael-pokedex-challenge.vercel.app/",
+      repository: "https://github.com/Rafael-Souza-97/pokedex",
+    },
+    {
+      id: 2,
       name: "Exchange Wallet",
       src: exchangeWallet,
       href: "https://exchange-wallet-bay.vercel.app/",
       repository: "https://github.com/Rafael-Souza-97/exchange-wallet",
     },
     {
-      id: 2,
+      id: 3,
       name: "App de Receitas",
       src: appDeReceitas,
       href: "https://app-de-receitas-pink.vercel.app/",
       repository: "https://github.com/Rafael-Souza-97/app-de-receitas"
     },
     {
-      id: 3,
-      name: "Shopping Cart",
-      src: shoppingCart,
-      href: "https://shopping-cart-roan-one.vercel.app/",
-      repository: "https://github.com/Rafael-Souza-97/shopping-cart"
-    },
-    {
       id: 4,
-      name: "Smith Project",
-      src: smithProject,
-      repository: "https://github.com/Rafael-Souza-97/smith-project"
+      name: "Tabela do Campeonato",
+      src: tabelaDoCampeonato,
+      repository: "https://github.com/Rafael-Souza-97/tabela-do-campeonato"
     },
     {
       id: 5,
-      name: "Talker Manager",
-      src: talkerManager,
-      repository: "https://github.com/Rafael-Souza-97/talker-manager"
+      name: "Smith Project",
+      src: smithProject,
+      repository: "https://github.com/Rafael-Souza-97/smith-project"
     },
     {
       id: 6,

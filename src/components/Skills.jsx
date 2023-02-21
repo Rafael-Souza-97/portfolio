@@ -5,22 +5,31 @@ import html from "../assets/stacks/html.png";
 import css from "../assets/stacks/css.png";
 import reactImage from "../assets/stacks/react.png";
 import redux from "../assets/stacks/redux.png";
+import axios from "../assets/stacks/axios.png";
+import tailwind from "../assets/stacks/tailwind.png";
+import bootstrap from "../assets/stacks/bootstrap.png";
+// import bulma from "../assets/stacks/bulma.png";
 import docker from "../assets/stacks/docker.png";
 import node from "../assets/stacks/node.png";
 import mysql from "../assets/stacks/mysql.png";
+import mongodb from "../assets/stacks/mongodb.png";
 import express from "../assets/stacks/express.png";
-import tailwind from "../assets/stacks/tailwind.png";
-import bootstrap from "../assets/stacks/bootstrap.png";
+import sequelize from "../assets/stacks/sequelize.png";
+import jwt from "../assets/stacks/jwt.png";
 import mocha from "../assets/stacks/mocha.png";
 import chai from "../assets/stacks/chai.png";
+import sinon from "../assets/stacks/sinon.png";
 import jest from "../assets/stacks/jest.png";
+import rtl from "../assets/stacks/react-testing-library.png";
+// import eslint from "../assets/stacks/react-testing-library.png";
 import git from "../assets/stacks/git.png";
 import github from "../assets/stacks/github.png";
+import vite from "../assets/stacks/vite.png";
 import vercel from "../assets/stacks/vercel.png";
 import railway from "../assets/stacks/railway.png";
 import slack from "../assets/stacks/slack.png";
 import figma from "../assets/stacks/figma.png";
-import vscode from "../assets/stacks/vscode.png";
+// import vscode from "../assets/stacks/vscode.png";
 import linux from "../assets/stacks/linux.png";
 import windows from "../assets/stacks/windows.png";
 import { BsChevronDoubleDown } from 'react-icons/bs';
@@ -64,110 +73,147 @@ const Experience = () => {
       title: "Redux",
       style: "shadow-purple-400",
     },
+
     {
       id: 7,
-      src: docker,
-      title: "Docker",
-      style: "shadow-sky-400",
-    },
-    {
-      id: 8,
-      src: node,
-      title: "Node.js",
-      style: "shadow-green-400",
-    },
-    {
-      id: 9,
-      src: mysql,
-      title: "MySQL",
-      style: "shadow-blue-800",
-    },
-    {
-      id: 10,
-      src: express,
-      title: "Express",
-      style: "shadow-white",
-    },
-    {
-      id: 11,
       src: tailwind,
       title: "Tailwind",
       style: "shadow-sky-400",
     },
     {
-      id: 12,
+      id: 8,
       src: bootstrap,
       title: "Bootstrap",
       style: "shadow-purple-600",
     },
     {
-      id: 13,
-      src: mocha,
-      title: "Mocha",
-      style: "shadow-brown-500",
-    },
-    {
-      id: 14,
-      src: chai,
-      title: "Chai",
-      style: "shadow-orange-800",
-    },
-    {
-      id: 15,
+      id: 9,
       src: jest,
       title: "Jest",
       style: "shadow-red-500",
     },
     {
+      id: 10,
+      src: rtl,
+      title: "React Testing Library",
+      style: "shadow-red-800",
+    },
+    {
+      id: 11,
+      src: docker,
+      title: "Docker",
+      style: "shadow-sky-400",
+    },
+    {
+      id: 12,
+      src: node,
+      title: "Node.js",
+      style: "shadow-green-400",
+    },
+    {
+      id: 13,
+      src: mysql,
+      title: "MySQL",
+      style: "shadow-blue-800",
+    },
+    {
+      id: 14,
+      src: mongodb,
+      title: "MongoDB",
+      style: "shadow-green-500",
+    },
+    {
+      id: 15,
+      src: express,
+      title: "Express",
+      style: "shadow-white",
+    },
+    {
       id: 16,
+      src: sequelize,
+      title: "Sequelize",
+      style: "shadow-blue-700",
+    },
+    {
+      id: 17,
+      src: jwt,
+      title: "Json Web Token",
+      style: "shadow-pink-500",
+    },
+    {
+      id: 18,
+      src: mocha,
+      title: "Mocha",
+      style: "shadow-brown-500",
+    },
+    {
+      id: 19,
+      src: sinon,
+      title: "Sinon",
+      style: "shadow-white",
+    },
+    {
+      id: 20,
+      src: chai,
+      title: "Chai",
+      style: "shadow-orange-800",
+    },
+    {
+      id: 21,
       src: git,
       title: "Git",
       style: "shadow-orange-600",
     },
     {
-      id: 17,
+      id: 22,
       src: github,
       title: "GitHub",
       style: "shadow-gray-400",
     },
     {
-      id: 18,
+      id: 23,
+      src: axios,
+      title: "Axios",
+      style: "shadow-purple-500",
+    },
+    {
+      id: 24,
+      src: vite,
+      title: "Vite",
+      style: "shadow-yellow-400",
+    },
+    {
+      id: 25,
       src: vercel,
       title: "Vercel",
       style: "shadow-white",
     },
     {
-      id: 19,
+      id: 26,
       src: railway,
       title: "Railway",
       style: "shadow-white",
     },
     {
-      id: 20,
+      id: 27,
       src: slack,
       title: "Slack",
       style: "shadow-sky-400",
     },
     {
-      id: 21,
+      id: 28,
       src: figma,
       title: "Figma",
       style: "shadow-gray-400",
     },
     {
-      id: 22,
-      src: vscode,
-      title: "VsCode",
-      style: "shadow-blue-400",
-    },
-    {
-      id: 23,
+      id: 29,
       src: windows,
       title: "Windows",
       style: "shadow-blue-400",
     },
     {
-      id: 24,
+      id: 30,
       src: linux,
       title: "linux",
       style: "shadow-orange-400",
@@ -190,7 +236,7 @@ const Experience = () => {
           </p>
         </div>
 
-        <div className="w-full grid grid-cols-1 sm:grid-cols-2 md:grid-cols-8 gap-6 text-center py-8 px-12 sm:px-0">
+        <div className="w-full grid grid-cols-1 sm:grid-cols-2 md:grid-cols-10 gap-5 text-center py-8 px-12 sm:px-0">
           {techs.map(({ id, src, title, style }) => (
             <div
               key={id}
