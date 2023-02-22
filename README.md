@@ -35,7 +35,7 @@ npm install
 
 <hr>
 
-### Scripts
+### Executando o Portfolio localmente
 
  - Execute a aplicação com  com `npm start`:
   > Executará a aplicação em modo de desenvolvimento.
