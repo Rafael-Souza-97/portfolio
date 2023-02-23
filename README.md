@@ -50,9 +50,10 @@ Abra [http://localhost:3000](http://localhost:3000) no seu navegador para visual
 
 <br>
 <hr>
-<br>
 
 </details>
+
+<br>
   
 ## Autor
 
@@ -70,6 +71,8 @@ Abra [http://localhost:3000](http://localhost:3000) no seu navegador para visual
 - [Git](https://git-scm.com/) & [GitHub](https://github.com/)
 - [Linux - Ubuntu](https://ubuntu.com/)
 
+<br>
+
 ## Deploy
 
 https://portfolio-rafael-souza.vercel.app/
@@ -77,3 +80,5 @@ https://portfolio-rafael-souza.vercel.app/
 ## Preview
 
 https://user-images.githubusercontent.com/99055008/210901469-b0846b5e-9409-4e2e-875b-fa58f0719aaa.mp4
+
+<hr>
