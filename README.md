@@ -1,4 +1,4 @@
-# Portfólio Rafael Souza
+# Portfólio
 
 Este é o repositório do meu Portfólio, onde você pode me conhcer um pouco melhor e encontrar alguns dos projetos que já trabalhei com alguns exemplos do meu trabalho. Estou sempre procurando por novos desafios e oportunidades de aprendizado, então não hesite em entrar em contato comigo se você tiver algum projeto em mente em que possa contribuir. Obrigado por visitar!
 
@@ -35,7 +35,7 @@ npm install
 
 <hr>
 
-### Executando o Portfolio localmente
+### Executando o Portfólio localmente
 
  - Execute a aplicação com  com `npm start`:
   > Executará a aplicação em modo de desenvolvimento.
