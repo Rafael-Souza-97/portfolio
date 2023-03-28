@@ -1,3 +1,7 @@
+body {
+  min-width: 330px;
+}
+
 .image-effect {
   animation: profile_animate 6s ease-in-out infinite 1s;
   animation-delay: 2s;
@@ -210,6 +214,21 @@
 
 .direction-r .desc {
   margin: 1em 0 0 0.75em;
+}
+
+.selector::after {
+  content: "";
+  display: block;
+  border-bottom: 2px solid white;
+  margin-top: 5px;
+  transform: scaleX(0);
+  transition: transform 0.5s ease;
+}
+
+.selector:hover::after,
+.selector:focus::after {
+  transform: scaleX(1);
+  font-weight: bold;
 }
 
 @media screen and (max-width: 660px) {

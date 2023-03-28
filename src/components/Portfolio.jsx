@@ -3,7 +3,7 @@ import { Link } from "react-scroll";
 import { BsChevronDoubleDown } from 'react-icons/bs';
 import pokedex from "../assets/portfolio/pokedex.png";
 import exchangeWallet from "../assets/portfolio/exchangeWallet.png";
-import appDeReceitas from "../assets/portfolio/appDeReceitas.png";
+// import appDeReceitas from "../assets/portfolio/appDeReceitas.png";
 import tabelaDoCampeonato from "../assets/portfolio/tabelaDoCampeonato.png";
 import smithProject from "../assets/portfolio/smithProject.png";
 import storeManager from "../assets/portfolio/storeManager.png";
@@ -24,13 +24,13 @@ const Portfolio = () => {
       href: "https://exchange-wallet-bay.vercel.app/",
       repository: "https://github.com/Rafael-Souza-97/exchange-wallet",
     },
-    {
-      id: 3,
-      name: "App de Receitas",
-      src: appDeReceitas,
-      href: "https://app-de-receitas-pink.vercel.app/",
-      repository: "https://github.com/Rafael-Souza-97/app-de-receitas"
-    },
+    // {
+    //   id: 3,
+    //   name: "App de Receitas",
+    //   src: appDeReceitas,
+    //   href: "https://app-de-receitas-pink.vercel.app/",
+    //   repository: "https://github.com/Rafael-Souza-97/app-de-receitas"
+    // },
     {
       id: 4,
       name: "Tabela do Campeonato",
@@ -54,7 +54,7 @@ const Portfolio = () => {
   return (
     <div
       name="portfolio"
-      className="md:flex flex-col w-full min-h-screen bg-gradient-to-b from-black via-black to-gray-800 text-white pt-32"
+      className="md:flex flex-col w-full min-h-screen bg-gradient-to-b from-black via-black to-gray-800 text-white pt-24"
     >
       <div className="max-w-screen-lg mx-auto flex flex-col justify-center md:h-full px-4">
         <div className="pb-10">
@@ -98,7 +98,7 @@ const Portfolio = () => {
             ))}
           </div>
 
-          <h6 className="text-gray-400 pt-14 text-center">
+          <h6 className="text-gray-400 pt-12 text-center">
             Visite meu <a
               href={"https://github.com/Rafael-Souza-97?tab=repositories"}
               className="cursor-pointer tech"
