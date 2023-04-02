@@ -4,7 +4,7 @@ import Home from "../components/Home";
 import About from "../components/About";
 import Timeline from '../components/Timeline';
 import Skills from "../components/Skills";
-import Portfolio from "../components/Portfolio";
+import Projects from "../components/Projects";
 import SocialLinks from "../components/SocialLinks";
 import Contact from '../components/Contact';
 import Footer from '../components/Footer';
@@ -19,7 +19,7 @@ const HomePage = () => {
       <TopButton />
       <Timeline />
       <Skills />
-      <Portfolio />
+      <Projects />
       <Contact />
       <Footer />
       <SocialLinks />

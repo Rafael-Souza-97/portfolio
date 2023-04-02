@@ -20,7 +20,7 @@ const NavBar = () => {
     },
     {
       id: 5,
-      link: "portfolio",
+      link: "projetos",
     },
     {
       id: 6,
@@ -32,7 +32,7 @@ const NavBar = () => {
     <div className="flex justify-between items-center w-full h-20 px-4 text-white bg-black fixed mb-10 z-50">
       <div>
         <Link to="home" smooth duration={500}>
-          <span key={1} className="text-5xl cursor-pointer text-gray-400 tech ml-2">{`< />`}</span>
+          <span key={1} className="text-4xl cursor-pointer text-gray-400 tech ml-5">{`< />`}</span>
         </Link>
       </div>
 

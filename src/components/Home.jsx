@@ -15,7 +15,18 @@ const Home = () => {
       <div className="max-w-screen-lg mx-auto flex flex-col items-center justify-center h-full px-8 md:flex-row home-container">
         <div className="flex flex-col justify-center h-full text-container mt-32 mr-10 items-center">
           <h6 className="hidden md:block text-white text-xs mb-5 w-28 text-center">
-             <span className="opacity-70 hover:opacity-100">Hello World 🌏</span>
+          <TypeAnimation
+                className="opacity-70 hover:opacity-100"
+                sequence={[
+                  3000,
+                  "Hello World 🌏",
+                  2000,
+                  "",
+                ]}
+                wrapper="div"
+                cursor={false}
+                repeat={0}
+              />
           </h6>
           <h2 className="text-3xl sm:text-6xl text-white mb-10 text-center text-mg">
             Olá, eu sou o <strong>Rafael Souza</strong>

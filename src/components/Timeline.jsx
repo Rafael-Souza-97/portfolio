@@ -1,6 +1,6 @@
 import React, { useState } from "react";
-import { BsChevronDoubleDown } from 'react-icons/bs';
 import  cartaDeRecomendacao  from "../assets/hero/carta_de_recomendacao_eb.png";
+import { BsChevronDoubleDown } from 'react-icons/bs';
 import { FaFileDownload } from "react-icons/fa";
 import { FaBriefcase, FaGraduationCap } from 'react-icons/fa';
 import { Link } from "react-scroll";
@@ -33,7 +33,7 @@ const Trajectory = () => {
         <div className="flex flex-col sm:flex-row justify-center items-center pt-12 pb-6">
           <button
             type='button'
-            className={`text-white mx-0 sm:mx-5 w-32 py-2 selector ${!isShowingEducation ? "font-bold transition duration-500 ease-in-out" : "opacity-50 transition duration-500 ease-in-out"}`}
+            className={`text-white mx-0 sm:mx-5 w-32 py-2 selector ${!isShowingEducation ? "font-bold transition duration-500 ease-in-out" : "opacity-60 transition duration-500 ease-in-out"}`}
             onClick={() => setIsShowingEducation(false)}
           >
             {!isShowingEducation ? (
@@ -48,7 +48,7 @@ const Trajectory = () => {
 
           <button
             type='button'
-            className={`text-white mx-0 sm:mx-10 py-2 selector ${isShowingEducation ? "font-bold transition duration-500 ease-in-out" : "opacity-50 transition duration-500 ease-in-out"}`}
+            className={`text-white mx-0 sm:mx-10 py-2 selector ${isShowingEducation ? "font-bold transition duration-500 ease-in-out" : "opacity-60 transition duration-500 ease-in-out"}`}
             onClick={() => setIsShowingEducation(true)}
           >
             {isShowingEducation ? (
