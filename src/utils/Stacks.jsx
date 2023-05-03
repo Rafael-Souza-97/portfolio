@@ -1,41 +1,43 @@
-import typescript from "../assets/stacks/typescript.png";
-import javascript from "../assets/stacks/javascript.png";
-import html from "../assets/stacks/html.png";
-import css from "../assets/stacks/css.png";
-import reactImage from "../assets/stacks/react.png";
-import redux from "../assets/stacks/redux.png";
-import axios from "../assets/stacks/axios.png";
-import tailwind from "../assets/stacks/tailwind.png";
-import bootstrap from "../assets/stacks/bootstrap.png";
-import bulma from "../assets/stacks/bulma.png";
-import materialUi from "../assets/stacks/material-ui.png";
-import reactIcons from "../assets/stacks/react-icons.png";
-import python from "../assets/stacks/python.png";
-import node from "../assets/stacks/node.png";
-import mysql from "../assets/stacks/mysql.png";
-import mongodb from "../assets/stacks/mongodb.png";
-import express from "../assets/stacks/express.png";
-import sequelize from "../assets/stacks/sequelize.png";
-import jwt from "../assets/stacks/jwt.png";
-import mocha from "../assets/stacks/mocha.png";
-import chai from "../assets/stacks/chai.png";
-import sinon from "../assets/stacks/sinon.png";
-import jest from "../assets/stacks/jest.png";
-import rtl from "../assets/stacks/react-testing-library.png";
-import pytest from "../assets/stacks/pytest.png";
-import eslint from "../assets/stacks/eslint.png";
-import docker from "../assets/stacks/docker.png";
-import git from "../assets/stacks/git.png";
-import github from "../assets/stacks/github.png";
-import vite from "../assets/stacks/vite.png";
-import vercel from "../assets/stacks/vercel.png";
-import railway from "../assets/stacks/railway.png";
-import slack from "../assets/stacks/slack.png";
-import trello from "../assets/stacks/trello.png";
-import figma from "../assets/stacks/figma.png";
-import vscode from "../assets/stacks/vscode.png";
-import windows from "../assets/stacks/windows.png";
-import linux from "../assets/stacks/linux.png";
+import typescript from "../assets/stacks/language/typescript.png";
+import javascript from "../assets/stacks/language/javascript.png";
+import html from "../assets/stacks/front/html.png";
+import css from "../assets/stacks/front/css.png";
+import reactImage from "../assets/stacks/front/react.png";
+import redux from "../assets/stacks/front/redux.png";
+import axios from "../assets/stacks/front/axios.png";
+import tailwind from "../assets/stacks/front/tailwind.png";
+import bootstrap from "../assets/stacks/front/bootstrap.png";
+import bulma from "../assets/stacks/front/bulma.png";
+import materialUi from "../assets/stacks/front/material-ui.png";
+import reactIcons from "../assets/stacks/front/react-icons.png";
+import python from "../assets/stacks/language/python.png";
+import docker from "../assets/stacks/back/docker.png";
+import node from "../assets/stacks/back/node.png";
+import mysql from "../assets/stacks/back/mysql.png";
+import mongodb from "../assets/stacks/back/mongodb.png";
+import express from "../assets/stacks/back/express.png";
+import sequelize from "../assets/stacks/back/sequelize.png";
+import jwt from "../assets/stacks/back/jwt.png";
+import mocha from "../assets/stacks/tests/mocha.png";
+import chai from "../assets/stacks/tests/chai.png";
+import sinon from "../assets/stacks/tests/sinon.png";
+import jest from "../assets/stacks/tests/jest.png";
+import rtl from "../assets/stacks/tests/react-testing-library.png";
+import pytest from "../assets/stacks/tests/pytest.png";
+import eslint from "../assets/stacks/tools/eslint.png";
+import git from "../assets/stacks/tools/git.png";
+import github from "../assets/stacks/tools/github.png";
+import vite from "../assets/stacks/tools/vite.png";
+import vercel from "../assets/stacks/tools/vercel.png";
+import railway from "../assets/stacks/tools/railway.png";
+import slack from "../assets/stacks/tools/slack.png";
+import trello from "../assets/stacks/tools/trello.png";
+import figma from "../assets/stacks/tools/figma.png";
+import vscode from "../assets/stacks/tools/vscode.png";
+import windows from "../assets/stacks/tools/windows.png";
+import linux from "../assets/stacks/tools/linux.png";
+// import puppeteer from "../assets/stacks/puppeteer.png";
+// import nextjs from "../assets/stacks/nextjs.png";
 
 export const frontend = [
   {
@@ -173,6 +175,12 @@ export const backend = [
     title: "Json Web Token",
     style: "shadow-pink-500",
   },
+  // {
+  //   id: 11,
+  //   src: puppeteer,
+  //   title: "Puppeteer",
+  //   style: "shadow-green-500",
+  // },
 ]
 
 export const tests = [

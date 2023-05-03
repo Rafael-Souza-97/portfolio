@@ -4,7 +4,6 @@ import About from './components/About';
 import HomePage from './pages/HomePage';
 import PageNotFound from './pages/PageNotFound';
 
-
 export default class App extends Component {
   render() {
     return (
