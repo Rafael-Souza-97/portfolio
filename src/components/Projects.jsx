@@ -146,7 +146,7 @@ const Projetos = () => {
                           { name }
                         </button>
                       </a>
-                      <p className="px-5 py-2 text-justify overflow-auto text-sm md:text-sm lg:text-base">
+                      <p className="px-3 pb-2 text-justify overflow-auto text-sm md:text-sm lg:text-base">
                         { description }
                       </p>
                     </div>
