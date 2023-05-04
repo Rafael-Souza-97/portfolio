@@ -2,28 +2,32 @@ import ibirita from "../assets/projetos/ibirita.png";
 import ibiritaGif from "../assets/projetos/gif/ibirita.gif";
 import webScrap from "../assets/projetos/web-scrap.png";
 import webScrapGif from "../assets/projetos/gif/web-scrap.gif";
-import tabelaDoCampeonato from "../assets/projetos/tabelaDoCampeonato.png";
-import tabelaDoCampeonatoGif from "../assets/projetos/gif/tabelaDoCampeonato.gif";
+import tabelaDoCampeonato from "../assets/projetos/tabela-do-campeonato.png";
+import tabelaDoCampeonatoGif from "../assets/projetos/gif/tabela-do-campeonato.gif";
 import ultracar from "../assets/projetos/ultracar-lite.png";
 import ultracarGif from "../assets/projetos/gif/ultracar-lite.gif";
-import exchangeWallet from "../assets/projetos/exchangeWallet.png";
-import exchangeWalletGif from "../assets/projetos/gif/exchangeWallet.gif";
-import appDeReceitas from "../assets/projetos/appDeReceitas.png";
+import exchangeWallet from "../assets/projetos/exchange-wallet.png";
+import exchangeWalletGif from "../assets/projetos/gif/exchange-wallet.gif";
+import appDeReceitas from "../assets/projetos/app-de-receitas.png";
 import appDeReceitasGif from "../assets/projetos/gif/app-de-receitas.gif";
 import pokedex from "../assets/projetos/pokedex.png";
 import pokedexGif from "../assets/projetos/gif/pokedex.gif";
-import musicTunes from "../assets/projetos/musicTunes.png";
+import musicTunes from "../assets/projetos/music-tunes.png";
 import musicTunesGif from "../assets/projetos/gif/music-tunes.gif";
-import shoppingCart from "../assets/projetos/shoppingCart.png";
-import shoppingCartGif from "../assets/projetos/gif/shoppingCart.gif";
+import shoppingCart from "../assets/projetos/shopping-cart.png";
+import shoppingCartGif from "../assets/projetos/gif/shopping-cart.gif";
 import carShop from "../assets/projetos/car-shop.png";
 import carShopGif from "../assets/projetos/gif/car-shop.gif";
-import jobsInsights from "../assets/projetos/jobsInsights.png";
-import blogsAPI from "../assets/projetos/blogsAPI.png";
-import dungeousAndDragons from "../assets/projetos/dungeousAndDragons.png";
-import storeManager from "../assets/projetos/storeManager.png";
+import storeManager from "../assets/projetos/store-manager.png";
 import storeManagerGif from "../assets/projetos/gif/store-manager.gif";
-import smithProject from "../assets/projetos/smithProject.png";
+import techNewsScrap from "../assets/projetos/tech-news-scrap.png";
+import inventoryReport from "../assets/projetos/inventory-report.png";
+import smithProject from "../assets/projetos/smith-project.png";
+import smithProjectGif from "../assets/projetos/gif/smith-project.gif";
+import blogsAPI from "../assets/projetos/blogs-api.png";
+import blogsAPIGif from "../assets/projetos/gif/blogs-api.gif";
+import dungeousAndDragons from "../assets/projetos/dungeous-and-dragons.png";
+import dungeousAndDragonsGif from "../assets/projetos/gif/dungeous-and-dragons.gif";
 // import construction from "../assets/projetos/construction.png";
 
 export const fullProjects = [
@@ -156,44 +160,66 @@ export const backProjects = [
     src: storeManager,
     gif: storeManagerGif,
     repository: "https://github.com/Rafael-Souza-97/store-manager",
-    description: 'O projeto consiste em desenvolver um sistema de gerenciamento de vendas no formato dropshipping, em que é possível procurar, criar, visualizar e deletar produtos e vendas. A aplicação utiliza uma API RESTful com arquitetura MSC.',
+    description: 'O projeto consiste em desenvolver um sistema de gerenciamento de vendas no formato dropshipping, em que é possível procurar, criar, visualizar e deletar produtos e vendas (CRUD). A aplicação utiliza uma API RESTful com arquitetura MSC.',
     style: "shadow-sky-300",
     showDescription: false,
     hover: false,
   },
   {
     id: 3,
-    name: "Jobs Insights",
-    src: jobsInsights,
-    repository: "https://github.com/Rafael-Souza-97/jobs-insights",
-    style: "shadow-gray-400",
+    name: "Tech News Scrap",
+    src: techNewsScrap,
+    // gif: techNewsScrapGif,
+    repository: "https://github.com/Rafael-Souza-97/tech-news-scrap",
+    description: 'Tech News Scrap é um projeto em Python que possibilita a consulta de notícias sobre tecnologia por meio da raspagem de dados de um blog utilizando a biblioteca Parsel. A solução extrai o conteúdo HTML e o armazena no banco de dados MongoDB.',
+    style: "shadow-green-200",
     showDescription: false,
     hover: false,
   },
   {
     id: 4,
-    name: "Blogs-API",
-    src: blogsAPI,
-    repository: "https://github.com/Rafael-Souza-97/blogs-api",
-    style: "shadow-indigo-400",
+    name: "inventory Report",
+    src: inventoryReport,
+    // gif: inventoryReportGif,
+    repository: "https://github.com/Rafael-Souza-97/inventory-report",
+    description: 'O projeto Inventory Report implementa um gerador de relatórios de estoque utilizando Programação Orientada a Objetos em Python. A aplicação lê arquivos nos formatos CSV, JSON ou XML e gera relatórios simples ou completos.',
+    style: "shadow-orange-600",
     showDescription: false,
     hover: false,
   },
   {
     id: 5,
-    name: "Dungeons & Dragons",
-    src: dungeousAndDragons,
-    repository: "https://github.com/Rafael-Souza-97/dungeons-and-dragons",
-    style: "shadow-red-500",
+    name: "Smith Project",
+    src: smithProject,
+    gif: smithProjectGif,
+    repository: "https://github.com/Rafael-Souza-97/smith-project",
+    description: 'O Smith Project desenvolve o back-end de uma loja de itens medievais com API REST e arquitetura de software em camadas MSC. Oferece a possibilidade para a criação e leitura de usuários e produtos na aplicação.',
+    style: "shadow-rose-300",
     showDescription: false,
     hover: false,
   },
   {
     id: 6,
-    name: "Smith Project",
-    src: smithProject,
-    repository: "https://github.com/Rafael-Souza-97/smith-project",
-    style: "shadow-rose-300",
+    name: "Blogs-API",
+    src: blogsAPI,
+    gif: blogsAPIGif,
+    repository: "https://github.com/Rafael-Souza-97/blogs-api",
+    description: 'Blogs-API é um projeto em Python que possibilita a consulta de notícias sobre tecnologia por meio da raspagem de dados de um blog utilizando a biblioteca Parsel. A solução extrai o conteúdo HTML e o armazena no banco de dados MongoDB.',
+    style: "shadow-white",
+    showDescription: false,
+    hover: false,
+  },
+]
+
+export const otherProjects = [
+  {
+    id: 1,
+    name: "Dungeons & Dragons",
+    src: dungeousAndDragons,
+    gif: dungeousAndDragonsGif,
+    repository: "https://github.com/Rafael-Souza-97/dungeons-and-dragons",
+    description: 'Dungeons & Dragons é um RPG de aventura onde os jogadores controlam personagens de raças distintas. Batalhas são realizadas com mecanismos de progresso como vida, força, energia e level para evolução dos personagens usando Typescript e POO.',
+    style: "shadow-red-500",
     showDescription: false,
     hover: false,
   },
