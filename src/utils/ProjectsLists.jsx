@@ -204,7 +204,7 @@ export const backProjects = [
     src: blogsAPI,
     gif: blogsAPIGif,
     repository: "https://github.com/Rafael-Souza-97/blogs-api",
-    description: 'Blogs-API é uma aplicação back-end com APIs desenvolvidas em Express com arquitetura MSC, permitindo a busca, criação, visualização e remoção de usuáriose posts em um blog. Utiliza uma API RESTful para fornecer acesso aos recursos.',
+    description: 'Blogs-API é uma aplicação back-end com APIs desenvolvidas em Express com arquitetura MSC, permitindo a busca, criação, visualização e remoção de usuários e posts em um blog. Utiliza API RESTful para fornecer acesso aos recursos.',
     style: "shadow-white",
     showDescription: false,
     hover: false,

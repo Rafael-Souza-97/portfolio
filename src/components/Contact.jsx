@@ -20,7 +20,7 @@ const Contact = () => {
       email: email
     }
 
-    emailjs.send("service_eq0p98h", "template_874cssm", templateParams, "JeiFB_uQDSuo2hXsB")
+    emailjs.send("service_93thg3q", "template_874cssm", templateParams, "JeiFB_uQDSuo2hXsB")
       .then((response) => {
         console.log("Email Enviado", response.status, response.text);
         alert('Mensagem Enviada!');

@@ -19,7 +19,7 @@ const About = () => {
   return (
     <div
       name="sobre mim"
-      className="min-h-screen md:flex flex-col w-full bg-gradient-to-b from-gray-800 to-black text-white pt-44"
+      className="min-h-screen md:flex flex-col w-full bg-gradient-to-b from-gray-800 to-black via-white via-70%  text-white pt-44"
     >
       <div className="max-w-screen-lg mx-auto flex flex-col justify-center md:h-full px-4">
         <div>
