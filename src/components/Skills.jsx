@@ -1,9 +1,9 @@
 import React, { useState, useEffect } from "react";
 import { frontend, backend, tests, tools } from "../utils/Stacks";
-import { BsChevronDoubleDown, BsTools } from 'react-icons/bs';
-import { BiSearch } from 'react-icons/bi';
-import { FaDatabase } from 'react-icons/fa';
-import { MdDesktopMac } from 'react-icons/md';
+import { BsChevronDoubleDown, BsTools } from "react-icons/bs";
+import { BiSearch } from "react-icons/bi";
+import { FaDatabase } from "react-icons/fa";
+import { MdDesktopMac } from "react-icons/md";
 import { Link } from "react-scroll";
 
 const Experience = () => {
@@ -14,10 +14,10 @@ const Experience = () => {
   const [mapSkills, setMapSkills] = useState(frontend);
 
   useEffect(() => {
-    if(isShowingFront) setMapSkills(frontend)
-    if(isShowingBack) setMapSkills(backend)
-    if(isShowingTests) setMapSkills(tests)
-    if(isShowingTools) setMapSkills(tools)
+    if (isShowingFront) setMapSkills(frontend);
+    if (isShowingBack) setMapSkills(backend);
+    if (isShowingTests) setMapSkills(tests);
+    if (isShowingTools) setMapSkills(tools);
   }, [isShowingFront, isShowingBack, isShowingTests, isShowingTools]);
 
   const resetButtons = () => {
@@ -25,7 +25,7 @@ const Experience = () => {
     setIsShowingBack(false);
     setIsShowingTests(false);
     setIsShowingTools(false);
-  }
+  };
 
   return (
     <div
@@ -39,14 +39,23 @@ const Experience = () => {
           </p>
 
           <p className="pt-16 pb-6 px-2 text-lg">
-            Possuo conhecimento e experiência em metodologias ágeis, incluindo Scrum e Kanban. Tenho experiência na criação APIs RESTful e de estruturas de software robustas e bem definidas, seguindo os princípios do MSC (Model-Service-Controller) e clean code.
+            Possuo conhecimento e experiência em metodologias ágeis, incluindo
+            Scrum e Kanban. Tenho experiência na criação APIs RESTful e de
+            estruturas de software robustas e bem definidas, seguindo os
+            princípios do MSC (Model-Service-Controller) e clean code. Hoje,
+            estou fazendo o Bootcamp do Santander de Ciência de Dados com
+            Python, e também estou estudando PHP para projetos futuros.
           </p>
         </div>
 
         <div className="flex flex-col sm:flex-row justify-center items-center pt-12 pb-6">
           <button
-            type='button'
-            className={`text-white mx-0 sm:mx-10 py-2 selector ${isShowingFront ? "font-bold transition duration-500 ease-in-out" : "opacity-60 transition duration-500 ease-in-out"}`}
+            type="button"
+            className={`text-white mx-0 sm:mx-10 py-2 selector ${
+              isShowingFront
+                ? "font-bold transition duration-500 ease-in-out"
+                : "opacity-60 transition duration-500 ease-in-out"
+            }`}
             onClick={() => {
               resetButtons();
               setIsShowingFront(true);
@@ -54,7 +63,7 @@ const Experience = () => {
           >
             {isShowingFront ? (
               <span>
-                <MdDesktopMac className='inline-block mr-2 mb-1' />
+                <MdDesktopMac className="inline-block mr-2 mb-1" />
                 Front-End
               </span>
             ) : (
@@ -63,8 +72,12 @@ const Experience = () => {
           </button>
 
           <button
-            type='button'
-            className={`text-white mx-0 sm:mx-10 py-2 selector ${isShowingBack ? "font-bold transition duration-500 ease-in-out" : "opacity-60 transition duration-500 ease-in-out"}`}
+            type="button"
+            className={`text-white mx-0 sm:mx-10 py-2 selector ${
+              isShowingBack
+                ? "font-bold transition duration-500 ease-in-out"
+                : "opacity-60 transition duration-500 ease-in-out"
+            }`}
             onClick={() => {
               resetButtons();
               setIsShowingBack(true);
@@ -72,7 +85,7 @@ const Experience = () => {
           >
             {isShowingBack ? (
               <span>
-                <FaDatabase className='inline-block mr-2 mb-1' />
+                <FaDatabase className="inline-block mr-2 mb-1" />
                 Back-End
               </span>
             ) : (
@@ -81,8 +94,12 @@ const Experience = () => {
           </button>
 
           <button
-            type='button'
-            className={`text-white mx-0 sm:mx-10 py-2 selector ${isShowingTests ? "font-bold transition duration-500 ease-in-out" : "opacity-60 transition duration-500 ease-in-out"}`}
+            type="button"
+            className={`text-white mx-0 sm:mx-10 py-2 selector ${
+              isShowingTests
+                ? "font-bold transition duration-500 ease-in-out"
+                : "opacity-60 transition duration-500 ease-in-out"
+            }`}
             onClick={() => {
               resetButtons();
               setIsShowingTests(true);
@@ -90,7 +107,7 @@ const Experience = () => {
           >
             {isShowingTests ? (
               <span>
-                <BiSearch className='inline-block mr-1 mb-1' />
+                <BiSearch className="inline-block mr-1 mb-1" />
                 Testes
               </span>
             ) : (
@@ -99,8 +116,12 @@ const Experience = () => {
           </button>
 
           <button
-            type='button'
-            className={`text-white mx-0 sm:mx-10 py-2 selector ${isShowingTools ? "font-bold transition duration-500 ease-in-out" : "opacity-60 transition duration-500 ease-in-out"}`}
+            type="button"
+            className={`text-white mx-0 sm:mx-10 py-2 selector ${
+              isShowingTools
+                ? "font-bold transition duration-500 ease-in-out"
+                : "opacity-60 transition duration-500 ease-in-out"
+            }`}
             onClick={() => {
               resetButtons();
               setIsShowingTools(true);
@@ -108,7 +129,7 @@ const Experience = () => {
           >
             {isShowingTools ? (
               <span>
-                <BsTools className='inline-block mr-2 mb-1' />
+                <BsTools className="inline-block mr-2 mb-1" />
                 Ferramentas
               </span>
             ) : (
@@ -118,7 +139,7 @@ const Experience = () => {
         </div>
 
         <div className="w-full grid grid-cols-1 sm:grid-cols-2 md:grid-cols-5 lg:grid-cols-6 gap-10 text-center py-8 px-12 sm:px-0  cursor-pointer">
-          { mapSkills.map(({ id, src, title, style }) => (
+          {mapSkills.map(({ id, src, title, style }) => (
             <div
               key={id}
               className={`shadow-md hover:scale-110 duration-500 py-3 rounded-lg ${style}`}
@@ -131,14 +152,8 @@ const Experience = () => {
       </div>
 
       <div className="hidden md:flex justify-center px-8 py-6">
-        <Link
-          to="projetos"
-          smooth
-          duration={500}
-          >
-          <button
-            className="group text-white w-fit px-8 py-3 my-2 flex items-center rounded-md bg-transparent mb-5"
-          >
+        <Link to="projetos" smooth duration={500}>
+          <button className="group text-white w-fit px-8 py-3 my-2 flex items-center rounded-md bg-transparent mb-5">
             Projetos
             <span>
               <BsChevronDoubleDown size={25} className="ml-2 down-arrow" />

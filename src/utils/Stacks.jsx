@@ -36,8 +36,8 @@ import figma from "../assets/stacks/tools/figma.png";
 import vscode from "../assets/stacks/tools/vscode.png";
 import windows from "../assets/stacks/tools/windows.png";
 import linux from "../assets/stacks/tools/linux.png";
+import nextjs from "../assets/stacks/front/nextjs.png";
 // import puppeteer from "../assets/stacks/puppeteer.png";
-// import nextjs from "../assets/stacks/nextjs.png";
 
 export const frontend = [
   {
@@ -72,47 +72,53 @@ export const frontend = [
   },
   {
     id: 6,
+    src: nextjs,
+    title: "Next",
+    style: "shadow-white",
+  },
+  {
+    id: 7,
     src: redux,
     title: "Redux",
     style: "shadow-purple-400",
   },
   {
-    id: 7,
+    id: 8,
     src: axios,
     title: "Axios",
     style: "shadow-purple-500",
   },
   {
-    id: 8,
+    id: 9,
     src: tailwind,
     title: "Tailwind",
     style: "shadow-sky-400",
   },
   {
-    id: 9,
+    id: 10,
     src: bootstrap,
     title: "Bootstrap",
     style: "shadow-purple-600",
   },
   {
-    id: 10,
+    id: 11,
     src: bulma,
     title: "Bulma",
     style: "shadow-teal-300",
   },
-  {
-    id: 11,
-    src: reactIcons,
-    title: "React Icons",
-    style: "shadow-red-600",
-  },
+  // {
+  //   id: 12,
+  //   src: reactIcons,
+  //   title: "React Icons",
+  //   style: "shadow-red-600",
+  // },
   {
     id: 12,
     src: materialUi,
     title: "Material UI",
     style: "shadow-blue-500",
   },
-]
+];
 
 export const backend = [
   {
@@ -181,7 +187,7 @@ export const backend = [
   //   title: "Puppeteer",
   //   style: "shadow-green-500",
   // },
-]
+];
 
 export const tests = [
   {
@@ -220,7 +226,7 @@ export const tests = [
     title: "pytest",
     style: "shadow-sky-400",
   },
-]
+];
 
 export const tools = [
   {
@@ -295,4 +301,4 @@ export const tools = [
     title: "linux",
     style: "shadow-orange-400",
   },
-]
+];

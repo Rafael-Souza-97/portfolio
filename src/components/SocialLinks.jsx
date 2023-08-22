@@ -39,7 +39,7 @@ const SocialLinks = () => {
           Currículo <FaFileDownload size={26} />
         </>
       ),
-      href: "/Curriculo_Rafael_Souza.pdf",
+      href: "/Rafael_Souza.pdf",
       style: "rounded-br-md",
       download: true,
     },
